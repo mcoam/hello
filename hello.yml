@@ -6,4 +6,9 @@
 
   - name: Hello World!
     shell: echo "Hi! Tower is working!"
+    
+  - name: install the latest version of Apache from the testing repo
+  yum:
+    name: httpd
+    state: present
 
